@@ -3,7 +3,7 @@ import { getPageNumber } from './helpers';
 
 const swApi = axios.create({
   baseURL: 'https://swapi.dev/api',
-  timeout: 30000,
+  timeout: 60000,
 });
 
 const fetchAllEntities = async (endpoint) => {
