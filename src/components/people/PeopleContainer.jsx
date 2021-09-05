@@ -116,7 +116,7 @@ function PeopleContainer() {
         fetchedStarships,
         fetchedSpecies,
       ] = await Promise.all([
-        await API.fetchPeople()
+        API.fetchPeople()
           .then((fetchedPeople) => fetchedPeople.map((fetchedPerson) => ({
             id: fetchedPerson.url.replace(/\D/ig, ''),
             name: fetchedPerson.name,
@@ -126,21 +126,21 @@ function PeopleContainer() {
             starships: fetchedPerson.starships,
             url: fetchedPerson.url,
           }))),
-        await API.fetchFilms()
+        API.fetchFilms()
           .then((data) => data.map(({ title, release_date: releaseDate, url }) => ({
             id: url.replace(/\D/ig, ''),
             title,
             releaseDate,
             url,
           }))),
-        await API.fetchStarships()
+        API.fetchStarships()
           .then((data) => data.map(({ name, url }) => ({
             id: url.replace(/\D/ig, ''),
             name,
             title: name,
             url,
           }))),
-        await API.fetchSpecies()
+        API.fetchSpecies()
           .then((data) => data.map(({ name, url }) => ({
             id: url.replace(/\D/ig, ''),
             name,
