@@ -1,7 +1,7 @@
 # Star Wars Characters
 
-[App Link](https://seialek.github.io/t-star-wars/#/)
-[Task](https://docs.google.com/document/d/1H4u-DXB1Ng_vgbLl3E2xvuRzpOYkT_bD97IHDmZ8_ng/edit?usp=sharing)
+- [App Link](https://seialek.github.io/t-star-wars/#/)
+- [Task](https://docs.google.com/document/d/1H4u-DXB1Ng_vgbLl3E2xvuRzpOYkT_bD97IHDmZ8_ng/edit?usp=sharing)
 
 
 ## Technologies
