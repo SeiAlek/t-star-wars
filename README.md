@@ -20,7 +20,4 @@ Two filtering modes are implemented:
 1. Mode AND. In this mode, characters are included in the selection if they meet all the criteria.
 2. Mode OR. The sample contains characters that meet at least one of the criteria.
 
-
-## Unrealized
-
-No favorites with DragnDrop (not hard task, if I had enough time I would implement it with react-dnd).
+Characters can be added to favorites (saved in localStorage) and removed from it. Adding to favorites is implemented through drag and drop.
